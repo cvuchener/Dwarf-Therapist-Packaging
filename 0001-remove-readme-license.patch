@@ -1,0 +1,11 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -94,8 +94,6 @@ if(UNIX AND NOT APPLE)
+             RUNTIME DESTINATION bin)
+     install(DIRECTORY share/
+             DESTINATION share/dwarftherapist)
+-    install(FILES LICENSE.txt README.rst
+-            DESTINATION share/doc/dwarftherapist)
+     # desktop file and icons
+     install(DIRECTORY dist/xdg/
+             DESTINATION share)
