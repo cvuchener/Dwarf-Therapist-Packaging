@@ -1,5 +1,5 @@
 Name:		dwarftherapist
-Version:	39.3.1
+Version:	40.0.0
 Release:	1%{?dist}
 Summary:	Dwarf management tool for Dwarf Fortress
 URL:		https://github.com/Dwarf-Therapist/Dwarf-Therapist/
@@ -35,7 +35,7 @@ make %{?_smp_mflags}
 %files
 %license LICENSE.txt
 %doc README.rst CHANGELOG.txt
-%{_bindir}/DwarfTherapist
+%{_bindir}/dwarftherapist
 %{_datadir}/dwarftherapist
 %{_datadir}/icons
 %{_datadir}/applications
