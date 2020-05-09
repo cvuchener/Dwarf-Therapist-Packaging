@@ -1,5 +1,5 @@
 Name:		dwarftherapist
-Version:	41.1.6
+Version:	41.1.7
 Release:	1%{?dist}
 Summary:	Dwarf management tool for Dwarf Fortress
 URL:		https://github.com/Dwarf-Therapist/Dwarf-Therapist/
