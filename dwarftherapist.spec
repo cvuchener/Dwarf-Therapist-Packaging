@@ -11,6 +11,7 @@ License:	MIT
 Source: https://github.com/%{repo_owner}/%{repo_name}/archive/v%{version}/%{name}-%{version}.tar.gz
 Patch0: 0001-remove-readme-license.patch
 
+Requires: compat-openssl10-devel
 BuildRequires: cmake, gcc-c++, qt5-qtbase-devel, qt5-qtdeclarative-devel
 
 
