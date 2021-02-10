@@ -24,12 +24,12 @@ Makes managing your dwarves' jobs and psychology easy!
 
 
 %build
-%cmake
-make %{?_smp_mflags}
+%cmake 
+%cmake_build
 
 
 %install
-%make_install
+%cmake_install
 
 
 %files
